@@ -4657,7 +4657,7 @@ function library:CreateSettingsTab(menu)
 
     refreshConfigs()
 
-    mainSection:AddBind({text = 'Menu Keybind', flag = 'togglebind', nomouse = true, noindicator = true, bind = Enum.KeyCode.Insertt, callback = function()
+    mainSection:AddBind({text = 'Menu Keybind', flag = 'togglebind', nomouse = true, noindicator = true, bind = Enum.KeyCode.Insert, callback = function()
         library:SetOpen(not library.open)
     end});
 
